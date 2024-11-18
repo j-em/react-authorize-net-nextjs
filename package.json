@@ -1,0 +1,23 @@
+{
+  "name": "react-authorize-net-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "ssl-proxy": "local-ssl-proxy --source 3001 --target 3000"
+  },
+  "dependencies": {
+    "next": "15.0.3",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-authorize-net": "^0.5.7",
+    "react-dom": "19.0.0-rc-66855b96-20241106"
+  },
+  "devDependencies": {
+    "local-ssl-proxy": "^2.0.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

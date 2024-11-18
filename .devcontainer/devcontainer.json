@@ -1,0 +1,7 @@
+{
+  "name": "React Authorize Net Example",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node",
+  "forwardPorts": [3000],
+  "runArgs": ["--network=host"],
+  "remoteUser": "root"
+}
